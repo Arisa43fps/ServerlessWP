@@ -2,11 +2,13 @@
 
 WordPress hosting is silly.
 
-Get low maintenance and low cost/free WordPress hosting on Vercel, Netlify, or AWS Lambda.
+**Low maintenance** and **low cost/free** WordPress hosting on Vercel, Netlify, or AWS Lambda.
 
-Stay up-to-date at the ServerlessWP repository: [mitchmac/serverlesswp](https://github.com/mitchmac/serverlesswp)
+ServerlessWP puts PHP & WordPress in serverless functions. Deploy this repository to give it a try.
 
-![PHP 8.1.32](https://img.shields.io/badge/version-8.1.32-blue?logo=php&labelColor=white) ![WordPress 6.7.2](https://img.shields.io/badge/version-6.7.2-blue?logo=wordpress&labelColor=white&logoColor=black)
+Stay up-to-date at the ServerlessWP repository: [github.com/mitchmac/serverlesswp](https://github.com/mitchmac/serverlesswp)
+
+![PHP 8.3.23](https://img.shields.io/badge/version-8.3.23-blue?logo=php&labelColor=white) ![WordPress 6.8.1](https://img.shields.io/badge/version-6.8.1-blue?logo=wordpress&labelColor=white&logoColor=black)
 
 ## Quick Deploy
 
@@ -25,15 +27,15 @@ Want to use AWS Lambda with the Serverless Framework instead? `npm install && se
 
 ## Project goals
 
-🌴 Maintaining servers for WordPress can be a pain. Serverless hosting should make it less time consuming.
+🌴 WordPress hosting made easy. Lower maintenance with serverless functions instead of servers.
 
 💲 Small WordPress sites shouldn't cost much to host. **Vercel, Netlify, & AWS have free tiers**.
 
 🔓 WordPress plugins and themes are extensively supported. No arbitrary limitations here.
 
-⚡ Blazing fast websites that take advantage of caching and Content Delivery Networks.
+⚡ Blazing fast websites that take advantage of caching and content delivery networks.
 
-🌎 Mindful consideration of the carbon footprint of WordPress websites.
+🌎 Lower the carbon footprint of WordPress websites.
 
 🤝 A helpful community. [Share your successes, ideas, or struggles](https://github.com/mitchmac/ServerlessWP/discussions) in the discussions.
 
@@ -113,7 +115,7 @@ Want to give it a try? Setup a private S3 bucket and use these environment varia
 - You can modify the incoming request through the ```event``` object in api/index.js. You can also modify the WordPress ```response``` object there. ServerlessWP has a basic plugin system to do this. Checkout out ```/api/index.js``` for hints.
 
 ## Getting help
-Need help getting ServerlessWP installed? [Start a discussion](https://github.com/mitchmac/ServerlessWP/discussions)
+Need help getting ServerlessWP installed? [Start a discussion](https://github.com/mitchmac/ServerlessWP/discussions) or [send me a chat](https://serverlesswp.com/chat).
 
 ## Contributing
 - Using ServerlessWP and [reporting any problems you experience](https://github.com/mitchmac/ServerlessWP/issues) is a great way to help.
